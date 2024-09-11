@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
 
-public class Digital_Imaginary extends JFrame {
+public class DigitalImaginary extends JFrame {
     private JTextField signUpPlayerIdField;
     private JTextField signUpPlayerNameField;
     private JTextField signUpPositionField;
@@ -15,7 +15,7 @@ public class Digital_Imaginary extends JFrame {
     // Database to store player information (In-memory storage for simplicity)
     //private Map<String, Player> playerDatabase;
 
-    public Digital_Imaginary() {
+    public DigitalImaginary() {
         // Initialize the database
         //playerDatabase = new HashMap<>();
     	
@@ -203,7 +203,7 @@ public class Digital_Imaginary extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                new Digital_Imaginary().setVisible(true);
+                new DigitalImaginary().setVisible(true);
             }
         });
     }
