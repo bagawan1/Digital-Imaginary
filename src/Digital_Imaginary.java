@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.sql.*;
 
-public class DigitalImaginary extends JFrame {
+class DigitalImaginary extends JFrame {
     private JTextField signUpPlayerIdField;
     private JTextField signUpPlayerNameField;
     private JTextField signUpPositionField;
